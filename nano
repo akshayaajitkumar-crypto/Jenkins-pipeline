@@ -53,7 +53,14 @@ stage('Clean Success Stage')
                         {
                                     echo 'final stage'
                         }
-            }                      
+            }    
+          stage('Build stage last -extra')
+            {
+                        steps
+                        {
+                                    echo 'final stage- extra'
+                        }
+            }    
       }
 }
 
